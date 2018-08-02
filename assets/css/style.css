@@ -23,7 +23,7 @@ header {
     margin-bottom: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 145%;
     font-weight: bold;
     vertical-align: middle;
     padding-top: 1%;
@@ -161,12 +161,11 @@ footer {
 
 #social-links {
     float: right;
-    padding: 10px;
-    width: 270px;
+    padding: 1%;
+    width: 27%;
     top: 10px;
     text-align: center;
-    margin-right: 125px;
-    margin-top: -5px;
+    margin: 2%;
 }
 
 #main-bio,
@@ -235,6 +234,15 @@ footer {
 /* These rules take effect when browsers width is 640px or less */
 
 @media screen and (max-width: 640px) {
+    /*Name Header takes full width*/
 
+    /*Nav drops below header*/
+
+    /*bio-image full width above about section*/
+    #bio-image {
+        width:100%;
+        height:100%;
+        margin-bottom:15px;
+    }
 }
 
